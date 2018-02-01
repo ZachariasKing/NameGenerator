@@ -26,16 +26,16 @@ public class NameGenerator{
 	{
 		System.out.print("Enter your first name: ");
 		Scanner firstNameInput = new Scanner(System.in);
-		String fName =  input.nextLine();
+		String fName =  firstNameInput.nextLine();
 		System.out.print("Thank you, now enter your last name: ");
 		Scanner lastNameInput = new Scanner(System.in);
-		String lName =  input.nextLine();
+		String lName =  lastNameInput.nextLine();
 		System.out.print("Thank you, now enter your mother's maiden name: ");
 		Scanner maidenNameInput = new Scanner(System.in);
-		String maidenName =  input.nextLine();
+		String maidenName =  maidenNameInput.nextLine();
 		System.out.print("Thank you, now enter your birth city: ");
 		Scanner cityNameInput = new Scanner(System.in);
-		String cityName =  input.nextLine();
+		String cityName = cityNameInput.nextLine();
 		System.out.println("Your generated name is: " + lName.substring(0, 3) + fName.substring(0, 2) + " " + maidenName.substring(0, 2) + cityName.substring(0, 3));
 		
 		
@@ -47,3 +47,4 @@ public class NameGenerator{
 	
 	
 }
+
