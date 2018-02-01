@@ -3,11 +3,9 @@ public class NameGenerator{
 	
 	public static void main(String[] args)
 	{
-		
 		nameGeneration();
-		
-		
 	}
+	
 	
 	
 	public static void nameGeneration()
